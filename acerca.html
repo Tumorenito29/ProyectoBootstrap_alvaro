@@ -5,37 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Inicio</title>
+    <title>Acerca de</title>
     <style>
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
         .bg-secondary {
             background-color: rgb(210, 210, 210) !important;
             margin-left: 20%;
             margin-right: 20%;
         }
-
-        a:hover {
-            color: rgb(164, 164, 164) !important;
-        }
-
-        svg:hover {
-            color: rgb(164, 164, 164) !important;
-        }
-
-        .col-md-6:hover .img-fluid {
-            -webkit-transform:scale(0.97);transform:scale(0.97);
-        }
-        
-        .col-md-6 {
-            overflow:hidden;
-        }
     </style>
 </head>
 <body>
-    <header>
+    <header class="pb-4">
         <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-4">
             <div class="container-fluid">
                 <a class="navbar-brand text-white fw-bold ps-3" href="#">Logo</a>
@@ -44,10 +24,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav pe-5">
-                        <li class="nav-item"><a class="nav-link text-white fw-bold pe-3 fs-5" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white pe-3 fs-5" href="index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link text-white pe-3 fs-5" href="modelos.html">Modelos</a></li>
                         <li class="nav-item"><a class="nav-link text-white pe-3 fs-5" href="motorsport.html">Motorsport</a></li>
-                        <li class="nav-item"><a class="nav-link text-white pe-3 fs-5" href="acerca.html">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link text-white fw-bold pe-3 fs-5" href="acerca.html">Acerca de</a></li>
                         <li class="nav-item"><a class="nav-link text-white fs-5" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
@@ -55,61 +35,41 @@
         </nav>
     </header>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade pt-3 pb-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2018/06/27/15300921233106.jpg" class="d-block w-75 mx-auto img-fluid" alt="Imagen de un coche clásico">
-            </div>
-            <div class="carousel-item">
-                <img src="https://s1.1zoom.me/b5770/496/Lamborghini_Huracan_LP_580-2_Red_529125_1920x1080.jpg" class="d-block w-75 mx-auto img-fluid" alt="Lamborghini Huracán en color rojo">
-            </div>
-            <div class="carousel-item">
-                <img src="https://cdn.motor1.com/images/mgl/1ZEpmp/s1/pagani-zonda-760-roadster-diamante-verde.webp" class="d-block w-75 mx-auto img-fluid" alt="Lamborghini Aventador SVJ en color verde">
-            </div>
-        </div>
-        <button class="carousel-control-prev w-50" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next w-50" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-
     <div class="text-center bg-secondary rounded mx-auto p-1">
-        <h2 class="text-dark pt-5 fw-bold">Bienvenido a Mi blog de coches Italianos</h2>
-        <p class="fw-bold pb-5">Explora artículos interesantes sobre los coches más exclusivos del mundo</p>
+        <h2 class="text-dark pt-5 fw-bold">Acerca de Nosotros</h2>
+        <p class="fw-bold pb-5">Conoce más sobre nuestro blog y su propósito.</p>
     </div>
 
-    <section class="container pt-5 pb-5">
-        <h3 class="text-center pb-4 fw-bold">Historia de Ferrari</h3>
+    <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2021/03/ferrari-125-s-1947-primer-ferrari-calle-2262417.jpeg?tf=3840x" class="rounded img-fluid" alt="Ferrari 125 S">
+                <img src="https://media.gq.com.mx/photos/5fe8d09a0507c68ea5158169/16:9/w_2560%2Cc_limit/ferrari-los-cinco-mejores-autos.jpg" alt="Nuestra historia" class="img-fluid rounded">
             </div>
             <div class="col-md-6">
-                <p><strong>Orígenes:</strong> Ferrari fue fundada por Enzo Ferrari en 1947 en Maranello, Italia. Desde joven, Enzo mostró un gran interés por los autos de carrera. Trabajó para Alfa Romeo como piloto y más tarde como director de su división de competición. En 1939, dejó Alfa Romeo para fundar su propia compañía, Auto Avio Costruzioni. Tras la Segunda Guerra Mundial, fundó oficialmente Ferrari S.p.A., enfocándose en la creación de autos de competición.</p>
-                <p><strong>Primer automóvil:</strong> El primer automóvil que llevó el nombre de Ferrari fue el 125 S, presentado en 1947. Este modelo contaba con un motor V12 diseñado por el ingeniero Gioachino Colombo, marcando el inicio de una larga tradición de innovación.</p>
+                <h2 class="fw-bold">Nuestra Historia</h2>
+                <p class="fs-5">Desde nuestra fundación, nos hemos dedicado a compartir nuestra pasión por los automóviles italianos, en especial la marca Lamborghini. Creemos en la excelencia, la innovación y el diseño que esta icónica marca representa.</p>
+                <p class="fs-5">Nuestro objetivo es inspirar a otros entusiastas del automovilismo al proporcionar contenido de alta calidad sobre modelos clásicos y modernos, competiciones y tecnología de vanguardia.</p>
             </div>
         </div>
-        <div class="row align-items-center pt-4 pt-5">
-            <div class="col-md-6 order-md-2">
-                <img src="https://conddedeporte.com/wp-content/uploads/2012/11/jose-froilan-gonzalez-ferrari-375-silverstone.jpg?w=878" class="rounded img-fluid" alt="Ferrari en competición">
-            </div>
-            <div class="col-md-6 order-md-1">
-                <p><strong>En las carreras:</strong> Desde el principio, Ferrari estuvo profundamente ligado al automovilismo. En 1950, la Scuderia Ferrari participó en la primera temporada del Campeonato Mundial de Fórmula 1. En 1951, lograron su primera victoria con el piloto José Froilán González. El primer campeonato de pilotos llegó en 1952 con Alberto Ascari, quien repitió en 1953. Ferrari es hoy el equipo más exitoso en la historia de la Fórmula 1.</p>
-            </div>
-        </div>
-        <div class="row align-items-center pt-5">
+
+        <div class="row mt-5">
             <div class="col-md-6">
-                <img src="https://cdn.ferrari.com/cms/network/media/img/resize/651a9b2a4f9dc50023ac3525-purodoor_1920?" class="rounded img-fluid" alt="">
+                <h2 class="fw-bold">Nuestro Equipo</h2>
+                <p class="fs-5">Contamos con un equipo de expertos en automovilismo que viven y respiran velocidad. Desde periodistas especializados hasta fotografías de primer nivel, nuestro equipo trabaja arduamente para ofrecerte la mejor experiencia.</p>
+                <p class="fs-5">Estamos comprometidos con nuestros lectores y siempre buscamos formas de mejorar y crecer junto a ustedes.</p>
             </div>
             <div class="col-md-6">
-                <p><strong>Ferrari Purosangue:</strong> El Ferrari Purosangue es el primer coche en la historia de Ferrari con cuatro puertas y cuatro plazas. Desde los primeros años de la marca, los coches con dos plazas traseras han desempeñado un papel importante en la compañía. De hecho, muchos Ferrari han hecho de la combinación de prestaciones absolutas y confort de primera clase uno de sus pilares. Ahora, en la culminación de 75 años de investigación de vanguardia, Ferrari ha creado un coche único y que representa el más puro ADN del Cavallino Rampante, donde prestaciones, placer de conducir y confort coexisten en perfecta armonía. Y por eso este nuevo modelo se ha llamado Ferrari Purosangue, que en italiano significa "pura sangre".</p>
+                <img src="https://www.nebrija.com/images/galerias/ingenieriaAutomovil/monica-plaza-2.webp" alt="Nuestro equipo" class="img-fluid rounded">
             </div>
         </div>
-    </section>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h2 class="fw-bold">Nuestra Misión</h2>
+                <p class="fs-5">Nuestra misión es conectar a los entusiastas de los coches con historias, noticias y análisis únicos. Nos esforzamos por ser una fuente confiable y emocionante para los fanáticos del automovilismo italiano alrededor del mundo.</p>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-danger p-3 text-center text-white">
         <p class="pt-3">&copy; 2024 Mi blog de coches italianos. Todos los derechos reservados.</p>
@@ -131,7 +91,6 @@
             </svg>
         </p>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
